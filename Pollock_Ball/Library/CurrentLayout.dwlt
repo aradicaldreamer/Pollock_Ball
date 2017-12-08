@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 1037
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 68
+  controlID: 129
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 69
+  controlID: 130
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -211,7 +211,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 10
+  controlID: 109
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -423,7 +423,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.0023271374, y: -0.71133524, z: 0.0023553374, w: -0.7028451}
     speed: 2
-    m_Value: {x: -0.0023271374, y: -0.71133524, z: 0.0023553374, w: -0.7028451}
+    m_Value: {x: 0.0023271374, y: 0.71133524, z: -0.0023553374, w: 0.7028451}
   m_Size:
     m_Target: 9.9461565
     speed: 2
@@ -547,9 +547,9 @@ MonoBehaviour:
     height: 423
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: 96010000
     m_LastClickedID: 0
-    m_ExpandedIDs: c804f4ff8620f4ff8820f4ff8c20f4ff8e20f4ffa4a4f7ff6c36f8ff469bf8ff3c1afffff88effff0c8fffff00000000
+    m_ExpandedIDs: 4cfbffff9efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -616,13 +616,13 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/SteamVR/Prefabs
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Unity\Pollock_Ball
+  m_LastProjectPath: C:\Users\delin\OneDrive\Documents\GitHub\Pollock_Ball\Pollock_Ball
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b8750000
-    m_LastClickedID: 30136
-    m_ExpandedIDs: f47400001e75000024750000d4750000da750000ea7500002e7600003a76000000ca9a3bffffff7f
+    m_SelectedIDs: c42b0000
+    m_LastClickedID: 11204
+    m_ExpandedIDs: 0000000052290000c2290000d42900002a2c0000542c00009c2c0000722d0000a42d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -650,7 +650,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 0000000052290000c2290000d42900002a2c0000542c00009c2c0000722d0000a42d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
