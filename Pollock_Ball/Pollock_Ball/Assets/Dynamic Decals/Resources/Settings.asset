@@ -43,4 +43,4 @@ MonoBehaviour:
     layers:
       serializedVersion: 2
       m_Bits: 4294967295
-  singlepassVR: 1
+  singlepassVR: 0

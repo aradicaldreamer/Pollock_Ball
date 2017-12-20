@@ -46,7 +46,7 @@
 		}
 	}
 
-	//2.0
+	//2.5
 	SubShader
 	{
 		Tags{ "Queue" = "AlphaTest+1" "DisableBatching" = "True"  "IgnoreProjector" = "True" }
@@ -60,7 +60,6 @@
 			Blend DstColor Zero
 
 			CGPROGRAM
-			#pragma target 2.0
 			#pragma multi_compile_instancing
 			#pragma multi_compile_fwdbase
 			#pragma multi_compile_fog

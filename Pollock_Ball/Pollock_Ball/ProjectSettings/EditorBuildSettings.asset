@@ -4,4 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/PollockBall/Scenes/Main_Test.unity
+    guid: 36a9c8449b8d54c4e9bb9920c7c31406

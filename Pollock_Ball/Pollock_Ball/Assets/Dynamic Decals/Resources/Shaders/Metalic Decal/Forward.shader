@@ -142,7 +142,7 @@
 		}
 	}
 
-	//2.0
+	//2.5
 	SubShader
 	{
 		Tags{ "Queue" = "AlphaTest+1" "DisableBatching" = "True"  "IgnoreProjector" = "True" }
@@ -157,7 +157,6 @@
 			Blend SrcAlpha OneMinusSrcAlpha
 
 			CGPROGRAM
-			#pragma target 2.0
 			#pragma multi_compile_fwdbase
 			#pragma multi_compile_fog
 			#pragma glsl
@@ -183,7 +182,6 @@
 			Fog{ Color(0,0,0,0) }
 
 			CGPROGRAM
-			#pragma target 2.0
 			#pragma multi_compile_fwdadd_fullshadows
 			#pragma multi_compile_fog
 			#pragma glsl

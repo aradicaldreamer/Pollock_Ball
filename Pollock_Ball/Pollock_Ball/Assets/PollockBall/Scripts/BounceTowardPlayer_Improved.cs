@@ -5,7 +5,7 @@ using UnityEngine;
 public class BounceTowardPlayer_Improved : MonoBehaviour
 {
 	public AudioSource hit;
-	public AudioSource splat;
+	//public AudioSource splat;
 	private float velocityMax = 200f;
 
     [SerializeField]
@@ -42,14 +42,14 @@ public class BounceTowardPlayer_Improved : MonoBehaviour
 		if (collision.gameObject.name == "Paddle") {
 			rb.velocity = Vector3.zero;
 			hit.Play ();
-			Physics.IgnoreCollision (collision.gameObject.GetComponent<CapsuleCollider> (), gameObject.GetComponent<SphereCollider> ());
+			Physics.IgnoreCollision (collision.gameObject.GetComponent<BoxCollider> (), gameObject.GetComponent<SphereCollider> ());
 
 			float forceMultiplier = GetBatForce (collision.gameObject.GetComponent<Rigidbody> ());
 			Vector3 direction = (transform.position - collision.contacts [0].point).normalized;
 			rb.AddForce (direction * forceMultiplier, ForceMode.Impulse);
 
 		} else {
-			splat.Play ();
+			//splat.Play ();
 			Bounce (collision.contacts [0].normal);
 		}
     }
