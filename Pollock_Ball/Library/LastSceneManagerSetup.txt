@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/PollockBall/Scenes/Splat_Test.unity
-  isLoaded: 1
-  isActive: 1
