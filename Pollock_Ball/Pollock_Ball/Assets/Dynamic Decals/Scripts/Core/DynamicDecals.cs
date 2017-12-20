@@ -108,7 +108,7 @@ namespace LlockhamIndustries.Decals
             system.settings = Resources.Load<DynamicDecalSettings>("Settings");
         }
 
-        private bool fireInCulling = true;
+        private bool fireInCulling = false;
 
         #region Rendering
         //Rendering Path
