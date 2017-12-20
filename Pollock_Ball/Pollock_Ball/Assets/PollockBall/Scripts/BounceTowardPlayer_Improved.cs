@@ -42,7 +42,7 @@ public class BounceTowardPlayer_Improved : MonoBehaviour
 		if (collision.gameObject.name == "Paddle") {
 			//rb.velocity = Vector3.zero;
 			src.Play ();
-			Physics.IgnoreCollision (collision.gameObject.GetComponent<BoxCollider> (), gameObject.GetComponent<SphereCollider> ());
+			//Physics.IgnoreCollision (collision.gameObject.GetComponent<BoxCollider> (), gameObject.GetComponent<SphereCollider> ());
 
 			float forceMultiplier = GetBatForce (collision.gameObject.GetComponent<Rigidbody> ());
 			Vector3 direction = (transform.position - collision.contacts [0].point).normalized;
