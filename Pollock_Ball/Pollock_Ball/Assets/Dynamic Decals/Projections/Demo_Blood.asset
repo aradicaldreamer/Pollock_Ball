@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 0
   instanced: 1
-  forceForward: 0
+  forceForward: 1
   priority: 12
   transparencyType: 0
   cutoff: 0.2
@@ -33,7 +33,7 @@ MonoBehaviour:
     _Color: 92
   metallic:
     texture: {fileID: 0}
-    metallicity: 0.98
+    metallicity: 0
     glossiness: 0
     _MetallicGlossMap: 211
     _Metallic: 210
