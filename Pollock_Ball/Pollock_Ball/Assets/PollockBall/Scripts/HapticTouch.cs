@@ -10,7 +10,7 @@ public class HapticTouch : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		trackedObject = GetComponent<SteamVR_TrackedObject> ();
+		trackedObject = GetComponentInParent<SteamVR_TrackedObject> ();
 	}
 	
 	// Update is called once per frame
