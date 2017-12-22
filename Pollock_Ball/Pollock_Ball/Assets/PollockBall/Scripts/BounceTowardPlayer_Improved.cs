@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class BounceTowardPlayer_Improved : MonoBehaviour
 {
-	public AudioSource src;
-	//public AudioSource splat;
+	public AudioSource hit;
+	public AudioSource splat;
 	private float velocityMax = 200f;
 
     [SerializeField]
@@ -39,18 +39,24 @@ public class BounceTowardPlayer_Improved : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+		//ballColor = GetComponent<PainterScript>().splatColor();
+
 		if (collision.gameObject.name == "Paddle") {
 			//rb.velocity = Vector3.zero;
-			src.Play ();
+			hit.Play ();
 			//Physics.IgnoreCollision (collision.gameObject.GetComponent<BoxCollider> (), gameObject.GetComponent<SphereCollider> ());
 
 			float forceMultiplier = GetBatForce (collision.gameObject.GetComponent<Rigidbody> ());
 			Vector3 direction = (transform.position - collision.contacts [0].point).normalized;
 			rb.AddForce (direction * forceMultiplier, ForceMode.Impulse);
 
+
 		} else {
-			//splat.Play ();
+			splat.Play ();
 			Bounce (collision.contacts [0].normal);
+
+			//this.gameObject.GetComponent<Renderer> ().material.color = new Color(Random.Range(0, 1.0f), Random.Range(0, 1.0f), Random.Range(0, 1.0f));
+			this.GetComponent<PainterScript>().splatColor = new Color(Random.Range(0, 1.0f), Random.Range(0, 1.0f), Random.Range(0, 1.0f));
 		}
     }
 
