@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿// This code is used from the Splatter VR project for use in Pollock Ball - please see their work here: https://devpost.com/software/splattervr-2a3y5z
+
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;

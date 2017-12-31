@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿// This code is based from the examples in three different projects that can be found here:
+// https://unity3d.college/2017/07/03/using-vector3-reflect-to-cheat-ball-bouncing-physics-in-unity/
+// https://github.com/FusedVR/Baseball
+// https://devpost.com/software/splattervr-2a3y5z
+// Many thanks to their guidance :)
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
